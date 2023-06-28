@@ -5,9 +5,12 @@
 body{
     background-color: rgba(12, 250, 254, 0.813);
 }
-h1{
+#h1{
     text-align: center;
     justify-content: center;
+    font-size: 100px;
+    font-weight: 1000;
+   margin-top: 5%;
 }
 .container{
     display: flex;
@@ -30,4 +33,10 @@ h1{
     margin: 10px;
     text-align: center;
     border-radius: 5px;
+   
+}
+span{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
 }

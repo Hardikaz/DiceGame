@@ -14,11 +14,15 @@ if(imgNumber>imgNumber2){
     //Play sound
     //show some animations
     document.querySelector("h1").innerHTML="PLayer 1 won the match";
+    // document.querySelectorAll("img")[1].style.display="none";
+    // document.querySelector("img").style.display="none";
 }
 if(imgNumber<imgNumber2){
     //Play sound
     //show some animations
     document.querySelector("h1").innerHTML="PLayer 2 won the match";
+    // document.querySelectorAll("img")[0].style.display="none";
+    // document.querySelector("img").style.display="none";
 }
 if(imgNumber===imgNumber2){
     //Play sound
