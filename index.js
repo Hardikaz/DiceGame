@@ -34,6 +34,10 @@
 //   New JavaScript Code
 
 document.querySelector('button').addEventListener('click',rollDice);
+
+// document.querySelector('button').addEventListener("keypress",roll(event))
+
+
 // passing check() in actionListener will make it happen before and passing name only check will make it happer when the function is called
 function rollDice(){
     
