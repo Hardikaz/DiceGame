@@ -29,3 +29,6 @@ if(imgNumber===imgNumber2){
     //show some animations
     document.querySelector("h1").innerHTML="It's a draw";
 }
+
+  
+

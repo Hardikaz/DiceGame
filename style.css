@@ -3,7 +3,8 @@
     margin: 0;
 }
 body{
-    background-color: rgba(12, 250, 254, 0.813);
+    background-color: rgb(32, 35, 34);
+    color: white;
 }
 #h1{
     text-align: center;
@@ -33,10 +34,30 @@ body{
     margin: 10px;
     text-align: center;
     border-radius: 5px;
+    margin:0 50px;
    
 }
 span{
     font-size: 100px;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.btn{
+    background: rgb(229, 27, 67);
+   display: block;
+   margin: auto;
+   
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.btn:hover{
+    opacity: 50%;
+    color: black;
 }
