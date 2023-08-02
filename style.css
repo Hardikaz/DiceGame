@@ -5,6 +5,7 @@
 body{
     background-color: rgb(32, 35, 34);
     color: white;
+    
 }
 #h1{
     text-align: center;
@@ -19,7 +20,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+    height: 60vh;
     
     /* width: 500px; */
 }
@@ -94,9 +95,7 @@ span{
 }
 
 @media only screen and (max-width:500px){
-    body{
-        background-color: blueviolet;
-    }
+   
     #h1{        
         font-size: 50px;
         
@@ -118,5 +117,6 @@ span{
         }
         .btn{
             margin: 10px 5px;
+            align-items: flex-end;
         }
 }
