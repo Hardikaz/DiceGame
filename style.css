@@ -20,7 +20,7 @@ body{
     align-items: center;
     justify-content: center;
     
-    height: 500px;
+    
     /* width: 500px; */
 }
 .dice p{
@@ -67,4 +67,32 @@ span{
    align-items: center;
    justify-content: center;
    
+}
+@media only screen and ( max-width:700px ){
+   
+    body{
+        background-color: aqua;
+    }
+    #h1{
+        
+        font-size: 80px;
+        font-weight: 800;
+       margin-top: 2%;
+    }
+    
+    .dice p{
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 40px;
+        
+    }
+    .dice img{
+    margin:5px 20px;
+    height: 200px;
+    width: 200px;
+       
+    }
+    span{
+        font-size: 50px;
+    }
 }
